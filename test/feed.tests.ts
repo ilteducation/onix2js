@@ -1,6 +1,6 @@
 import { expect } from "chai";
 import fs from "fs";
-import { parse } from "../src/index";
+import { parse } from "../src";
 
 describe("Feeds", () => {
   it("1.xml", async () => {
@@ -118,6 +118,13 @@ describe("Feeds", () => {
                   "ThemaInterestAgeSpecialInterestQualifier",
               },
             ],
+            audienceRanges: [
+              {
+                audienceRangeQualifier: 'UsSchoolGradeRange',
+                audienceRangePrecisions: [ 'From', 'To' ],
+                audienceRangeValues: [ '9', '12' ]
+              },
+            ]
           },
           collateralDetail: {
             textContent: {
@@ -312,6 +319,7 @@ describe("Feeds", () => {
                 subjectSchemeIdentifier: "ThemaSubjectCategory",
               },
             ],
+            audienceRanges: [],
           },
           collateralDetail: {
             textContent: {

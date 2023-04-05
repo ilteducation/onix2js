@@ -20,6 +20,16 @@ export function parseValue(json: Object, path: string) {
   return value;
 }
 
+export function parseArray(json: Object, path: string) {
+  const value = get(json, path);
+
+  if (!value) {
+    return null;
+  }
+
+  return value;
+}
+
 export function parseType(json: Object, path: string, type: Object) {
   const value = parseValue(json, path);
 

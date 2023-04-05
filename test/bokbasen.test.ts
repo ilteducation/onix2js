@@ -115,6 +115,13 @@ describe("Feeds", () => {
                 subjectSchemeIdentifier: "ProprietarySubjectScheme",
               },
             ],
+            audienceRanges: [
+              {
+                audienceRangeQualifier: 'InterestAgeYears',
+                audienceRangePrecisions: [ 'From', 'To' ],
+                audienceRangeValues: [ '12', '16' ]
+              },
+            ],
           },
           collateralDetail: {
             textContent: {

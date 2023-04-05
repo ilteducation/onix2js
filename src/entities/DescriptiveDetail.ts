@@ -24,6 +24,7 @@ import { Extent } from "./Extent";
 import { Collection } from "./Collection";
 
 import { parseType } from "../utils/parse";
+import {AudienceRange} from "./AudienceRange";
 
 export class DescriptiveDetail {
   constructor(json: any) {
@@ -58,6 +59,7 @@ export class DescriptiveDetail {
     this.languages = (json.Language || []).map((l) => new Language(l)) || [];
     this.subjects = (json.Subject || []).map((s) => new Subject(s)) || [];
     this.extents = (json.Extent || []).map((e) => new Extent(e)) || [];
+    this.audienceRanges = (json.AudienceRange || []).map((a) => new AudienceRange(a)) || [];
   }
 
   productComposition: ProductCompositionEnum;
@@ -71,4 +73,5 @@ export class DescriptiveDetail {
   languages: Language[];
   subjects: Subject[];
   extents: Extent[];
+  audienceRanges: AudienceRange[];
 }

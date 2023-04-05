@@ -76,6 +76,13 @@
         <SubjectSchemeIdentifier>98</SubjectSchemeIdentifier>
         <SubjectCode>5AK</SubjectCode>
       </Subject>
+      <AudienceRange>
+        <AudienceRangeQualifier>11</AudienceRangeQualifier>
+        <AudienceRangePrecision>03</AudienceRangePrecision>
+        <AudienceRangeValue>9</AudienceRangeValue>
+        <AudienceRangePrecision>04</AudienceRangePrecision>
+        <AudienceRangeValue>12</AudienceRangeValue>
+      </AudienceRange>
     </DescriptiveDetail>
     <CollateralDetail>
       <TextContent>
