@@ -1,7 +1,7 @@
 {
-  "name": "onix2js",
+  "name": "@ilteducation/onix2js",
   "version": "0.3.0",
-  "description": "",
+  "description": "This library is used to parse a ONIX 3.0 files to a json file with books metadata.",
   "main": "./lib/cjs/index.js",
   "module": "./lib/esm/index.js",
   "types": "./lib/cjs/index.d.ts",
@@ -31,5 +31,17 @@
   "dependencies": {
     "lodash": "4.17.21",
     "xml2js": "0.4.23"
-  }
+  },
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ilteducation/onix2js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ilteducation/onix2js/issues"
+  },
+  "homepage": "https://github.com/ilteducation/onix2js#readme"
 }
