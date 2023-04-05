@@ -38,6 +38,10 @@ describe("Feeds", () => {
             collections: [
               {
                 collectionType: "PublisherCollection",
+                collectionSequence: {
+                  collectionSequenceNumber: "05",
+                  collectionSequenceType: "TitleOrder",
+                },
                 titleDetail: {
                   titleElements: [
                     {

@@ -26,7 +26,10 @@
       <EpubTechnicalProtection>02</EpubTechnicalProtection>
       <Collection>
         <CollectionType>10</CollectionType>
-        <CollectionSequence xsi:nil="true" />
+        <CollectionSequence>
+          <CollectionSequenceType>02</CollectionSequenceType>
+          <CollectionSequenceNumber>05</CollectionSequenceNumber>
+        </CollectionSequence>
         <TitleDetail>
           <TitleType>01</TitleType>
           <TitleElement>
