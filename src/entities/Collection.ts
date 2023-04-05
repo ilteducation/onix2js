@@ -14,7 +14,7 @@ export class Collection {
   }
 
   collectionType: CollectionTypeEnum;
-  collectionSequence: CollectionSequence;
+  collectionSequence?: CollectionSequence;
   titleDetail: TitleDetail;
 }
 
