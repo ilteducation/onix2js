@@ -1,6 +1,6 @@
 {
   "name": "@ilteducation/onix2js",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "This library is used to parse a ONIX 3.0 files to a json file with books metadata.",
   "main": "./lib/cjs/index.js",
   "module": "./lib/esm/index.js",

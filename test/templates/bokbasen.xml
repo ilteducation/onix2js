@@ -47,6 +47,16 @@
                 <ProductClassificationType>07</ProductClassificationType>
                 <ProductClassificationCode>Bok</ProductClassificationCode>
             </ProductClassification>
+            <Collection>
+                <CollectionType>10</CollectionType>
+                <TitleDetail>
+                    <TitleType>01</TitleType>
+                    <TitleElement>
+                        <TitleElementLevel>02</TitleElementLevel>
+                        <TitleText>Test</TitleText>
+                    </TitleElement>
+                </TitleDetail>
+            </Collection>
             <TitleDetail>
                 <TitleType>01</TitleType>
                 <TitleElement>

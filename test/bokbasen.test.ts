@@ -39,7 +39,25 @@ describe("Feeds", () => {
             productFormDetail: "Epub",
             primaryContentType: null,
             epubTechnicalProtection: "DigitalWatermarking",
-            collections: [ ],
+
+            collections: [
+              {
+                collectionType: "PublisherCollection",
+                titleDetail: {
+                  titleElements: [
+                    {
+                      partNumber: null,
+                      titleElementLevel: "CollectionLevel",
+                      titlePrefix: null,
+                      titleText: "Test",
+                      titleWithoutPrefix: null,
+                    }
+                  ],
+                  titleType:
+                      "DistinctiveTitleBookCoverTitleSerialTitleOnItemSerialContentItemOrReviewedResource",
+                },
+              },
+            ],
             titleDetails: [{
               titleType:
                 "DistinctiveTitleBookCoverTitleSerialTitleOnItemSerialContentItemOrReviewedResource",
